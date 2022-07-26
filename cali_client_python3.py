@@ -15,7 +15,7 @@ top.title('Raspberry Pi Smart Video Car Calibration')
 ipfile = 'D:\WI\Bachelorabschluss\Chaos_Simulation_BA\client\piip.txt'
 HOST = open(ipfile, 'r').read().strip()
 print("Host:", HOST)
-#HOST = '192.168.0.102'    # Server(Raspberry Pi) IP address
+#HOST = '192.168.0.XXX'    # Server(Raspberry Pi) IP address
 PORT = 21567
 BUFSIZ = 1024             # buffer size
 ADDR = (HOST, PORT)
